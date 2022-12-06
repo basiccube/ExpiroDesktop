@@ -22,7 +22,7 @@ namespace CairoDesktop.Localization
             { "sCairoMenu_LogOff", "Log Off..." },
             { "sAbout_Version", "Version" },
             { "sAbout_PreRelease", "Pre-release" },
-            { "sAbout_Copyright", "Copyright © 2007-{0} Expiro Development Team and community contributors.  All rights reserved." },
+            { "sAbout_Copyright", "Copyright © 2007-{0} Cairo Development Team and community contributors.  All rights reserved." },
             { "sInterface_OK", "OK" },
             { "sInterface_Cancel", "Cancel" },
             { "sInterface_Continue", "Continue" },
