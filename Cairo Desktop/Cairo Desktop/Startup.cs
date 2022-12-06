@@ -61,7 +61,7 @@ namespace CairoDesktop
             {
                 MenuBar initialMenuBar = new MenuBar(System.Windows.Forms.Screen.PrimaryScreen);
                 app.MainWindow = initialMenuBar;
-                //WindowManager.Instance.MenuBarWindows.Add(initialMenuBar);
+                WindowManager.Instance.MenuBarWindows.Add(initialMenuBar);
                 initialMenuBar.Show();
             }
 

@@ -568,27 +568,28 @@ namespace CairoDesktop
         #region Places menu items
         private void OpenMyDocs(object sender, RoutedEventArgs e)
         {
-            FolderHelper.OpenLocation(KnownFolders.GetPath(KnownFolder.Documents));
+            FolderHelper.OpenLocation(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
         }
 
         private void OpenMyPics(object sender, RoutedEventArgs e)
         {
-            FolderHelper.OpenLocation(KnownFolders.GetPath(KnownFolder.Pictures));
+            FolderHelper.OpenLocation(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures));
         }
 
         private void OpenMyMusic(object sender, RoutedEventArgs e)
         {
-            FolderHelper.OpenLocation(KnownFolders.GetPath(KnownFolder.Music));
+            FolderHelper.OpenLocation(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic));
         }
 
         private void OpenMyVideos(object sender, RoutedEventArgs e)
         {
-            FolderHelper.OpenLocation(KnownFolders.GetPath(KnownFolder.Videos));
+            FolderHelper.OpenLocation(Environment.GetFolderPath(Environment.SpecialFolder.MyVideos));
         }
 
         private void OpenDownloads(object sender, RoutedEventArgs e)
         {
-            FolderHelper.OpenLocation(KnownFolders.GetPath(KnownFolder.Downloads));
+            // NT 5.x doesn't have a downloads folder and this menu option doesn't appear anyway because of that so this is unused.
+            FolderHelper.OpenLocation(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
         }
 
         private void OpenMyComputer(object sender, RoutedEventArgs e)
