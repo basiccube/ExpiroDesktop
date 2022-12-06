@@ -68,11 +68,6 @@ namespace CairoDesktop
 
         private void setupMenu()
         {
-            if (Shell.IsWindows10OrBetter && !Shell.IsCairoRunningAsShell)
-            {
-                // show Windows 10 features
-                miOpenUWPSettings.Visibility = Visibility.Visible;
-            }
 
 #if !DEBUG
             // I didnt like the Exit Cairo option available when Cairo was set as Shell

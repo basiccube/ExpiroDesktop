@@ -96,7 +96,7 @@
             <Setter Property="HorizontalAlignment"
                     Value="Left" />
             <Setter Property="FontFamily"
-                    Value="Segoe UI" />
+                    Value="Tahoma" />
             <Setter Property="FontSize"
                     Value="12" />
             <Setter Property="Height"
@@ -113,7 +113,7 @@
                                               VerticalAlignment="Center"
                                               HorizontalAlignment="Left"
                                               ContentSource="Header"
-                                              Margin="10,0" />
+                                              Margin="12,0" />
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger SourceName="Tab"

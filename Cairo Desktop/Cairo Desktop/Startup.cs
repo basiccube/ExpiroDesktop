@@ -147,7 +147,7 @@ namespace CairoDesktop
                 indicateGracefulShutdown();
             }
 
-            //Application.Current?.Dispatcher.Invoke(() => Application.Current?.Shutdown(), DispatcherPriority.Normal);
+            Application.Current.Dispatcher.Invoke(DispatcherPriority.Normal, new Action(() => Application.Current.Shutdown()));
         }
 
         private static void indicateGracefulShutdown()

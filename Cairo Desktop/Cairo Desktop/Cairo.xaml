@@ -5,7 +5,7 @@
                     xmlns:l10n="clr-namespace:CairoDesktop.Localization;assembly=CairoDesktop.Localization"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!-- Font resources -->
-    <FontFamily x:Key="DialogFontFamily">Corbel</FontFamily>
+    <FontFamily x:Key="DialogFontFamily">Tahoma</FontFamily>
     <FontFamily x:Key="GlobalFontFamily">Segoe UI</FontFamily>
 
     <system:Double x:Key="LargeTitleFontSize">33</system:Double>
