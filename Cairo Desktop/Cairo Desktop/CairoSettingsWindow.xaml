@@ -323,7 +323,7 @@
                                   SelectedValue="{Binding Source={x:Static Settings:Settings.Instance}, Path=DefaultProgramsCategory, UpdateSourceTrigger=PropertyChanged}"
                                   Width="170" />
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" IsEnabled="False">
                         <CheckBox IsChecked="{Binding Source={x:Static Settings:Settings.Instance}, Path=EnableCairoMenuHotKey, UpdateSourceTrigger=PropertyChanged}"
                                   Name="chkEnableCairoMenuHotKey">
                             <Label Content="Enable Expiro menu hotkey:" />
@@ -501,7 +501,7 @@
                                 Height="24"
                                 Padding="10,0">...</Button>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" IsEnabled="False">
                         <CheckBox IsChecked="{Binding Source={x:Static Settings:Settings.Instance}, Path=EnableDesktopOverlayHotKey, UpdateSourceTrigger=PropertyChanged}"
                                   Name="chkEnableDesktopOverlayHotKey">
                             <Label Content="Enable dynamic desktop overlay hotkey:" />

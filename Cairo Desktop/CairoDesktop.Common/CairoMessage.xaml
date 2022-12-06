@@ -62,24 +62,24 @@
                             Grid.ColumnSpan="5"
                             HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Button x:Name="OkButton"
-                            Content="{Binding Path=(l10n:DisplayString.sInterface_OK)}"
+                            Content="OK"
                             IsDefault="True"
                             Style="{StaticResource CairoMessageButton}"
                             Click="OkButton_Click"
                             Visibility="{Binding ElementName=messageWindow, Path=Buttons, Converter={StaticResource MessageBoxButtonConverter}, ConverterParameter=Ok}" />
                     <Button x:Name="YesButton"
-                            Content="{Binding Path=(l10n:DisplayString.sInterface_Yes)}"
+                            Content="Yes"
                             IsDefault="True"
                             Style="{StaticResource CairoMessageButton}"
                             Click="OkButton_Click"
                             Visibility="{Binding ElementName=messageWindow, Path=Buttons, Converter={StaticResource MessageBoxButtonConverter}, ConverterParameter=Yes}" />
                     <Button x:Name="NoButton"
-                            Content="{Binding Path=(l10n:DisplayString.sInterface_No)}"
+                            Content="No"
                             Style="{StaticResource CairoMessageButton}"
                             Click="NoButton_Click"
                             Visibility="{Binding ElementName=messageWindow, Path=Buttons, Converter={StaticResource MessageBoxButtonConverter}, ConverterParameter=No}" />
                     <Button x:Name="CancelButton"
-                            Content="{Binding Path=(l10n:DisplayString.sInterface_Cancel)}"
+                            Content="Cancel"
                             IsCancel="True"
                             Style="{StaticResource CairoMessageButton}"
                             Click="NoButton_Click"
