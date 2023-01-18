@@ -9,10 +9,6 @@ using System.Windows;
 [assembly: AssemblyTitle("Expiro Desktop Environment")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Cairo Development Team, basiccube")]
-[assembly: AssemblyProduct("Expiro Desktop Environment")]
-[assembly: AssemblyCopyright("Copyright © 2020 Cairo Development Team")]
-[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -38,5 +34,3 @@ using System.Windows;
     //(used if a resource is not found in the page, 
     // app, or any theme specific resource dictionaries)
 )]
-
-[assembly: AssemblyVersion("0.3.*")]

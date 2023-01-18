@@ -482,7 +482,7 @@ namespace CairoDesktop
 
             CairoMessage.Show(
                 Localization.DisplayString.sAbout_Version + " " + version + " - " + Localization.DisplayString.sAbout_PreRelease
-                + "\n\n" + String.Format(Localization.DisplayString.sAbout_Copyright, DateTime.Now.Year.ToString()), "Expiro Desktop Environment", CairoMessageImage.Default);
+                + "\n\n" + String.Format(Localization.DisplayString.sAbout_Copyright, DateTime.Now.Year.ToString()) + "\n" + String.Format(Localization.DisplayString.sAbout_ExpiroCopyright, DateTime.Now.Year.ToString()), "Expiro Desktop Environment", CairoMessageImage.Default);
         }
 
         private void OpenLogoffBox(object sender, RoutedEventArgs e)

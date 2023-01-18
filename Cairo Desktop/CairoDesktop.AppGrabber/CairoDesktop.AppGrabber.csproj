@@ -101,6 +101,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CairoDesktop.Common\Properties\GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="AppGrabberUI.xaml.cs">
       <DependentUpon>AppGrabberUI.xaml</DependentUpon>
     </Compile>

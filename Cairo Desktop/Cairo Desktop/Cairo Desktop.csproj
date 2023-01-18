@@ -84,6 +84,9 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\CairoDesktop.Common\Properties\GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="CairoWallpaperStyle.cs" />
     <Compile Include="DesktopOverlay.xaml.cs">
       <DependentUpon>DesktopOverlay.xaml</DependentUpon>

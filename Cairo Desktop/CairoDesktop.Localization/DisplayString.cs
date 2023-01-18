@@ -131,6 +131,8 @@ namespace CairoDesktop.Localization
 
         public static string sAbout_Copyright => getString();
 
+        public static string sAbout_ExpiroCopyright => getString();
+
         public static string sInterface_OK => getString();
 
         public static string sInterface_Cancel => getString();
