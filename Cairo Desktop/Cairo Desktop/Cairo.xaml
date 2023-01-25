@@ -2,7 +2,7 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:cairo="clr-namespace:CairoDesktop"
-                    xmlns:l10n="clr-namespace:CairoDesktop.Localization;assembly=CairoDesktop.Localization"
+                    xmlns:l10n="clr-namespace:CairoDesktop.Localization;assembly=ExpiroDesktop.Localization"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <!-- Font resources -->
     <FontFamily x:Key="DialogFontFamily">Tahoma</FontFamily>

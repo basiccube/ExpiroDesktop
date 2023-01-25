@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CairoDesktop.Interop</RootNamespace>
-    <AssemblyName>CairoDesktop.Interop</AssemblyName>
+    <AssemblyName>ExpiroDesktop.Interop</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

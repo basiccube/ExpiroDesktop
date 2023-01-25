@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CairoDesktop.AppGrabber</RootNamespace>
-    <AssemblyName>CairoDesktop.AppGrabber</AssemblyName>
+    <AssemblyName>ExpiroDesktop.AppGrabber</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StartupObject>

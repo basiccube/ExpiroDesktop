@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window x:Class="CairoDesktop.CairoSettingsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:Settings="clr-namespace:CairoDesktop.Configuration;assembly=CairoDesktop.Configuration"
+        xmlns:Settings="clr-namespace:CairoDesktop.Configuration;assembly=ExpiroDesktop.Configuration"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:l10n="clr-namespace:CairoDesktop.Localization;assembly=CairoDesktop.Localization"
-        xmlns:interop="clr-namespace:CairoDesktop.Interop;assembly=CairoDesktop.Interop"
+        xmlns:l10n="clr-namespace:CairoDesktop.Localization;assembly=ExpiroDesktop.Localization"
+        xmlns:interop="clr-namespace:CairoDesktop.Interop;assembly=ExpiroDesktop.Interop"
         xmlns:validator="clr-namespace:CairoDesktop.SupportingClasses"
         Title="Settings"
         SizeToContent="WidthAndHeight"
@@ -323,7 +323,7 @@
                                   SelectedValue="{Binding Source={x:Static Settings:Settings.Instance}, Path=DefaultProgramsCategory, UpdateSourceTrigger=PropertyChanged}"
                                   Width="170" />
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
                         <CheckBox IsChecked="{Binding Source={x:Static Settings:Settings.Instance}, Path=EnableCairoMenuHotKey, UpdateSourceTrigger=PropertyChanged}"
                                   Name="chkEnableCairoMenuHotKey">
                             <Label Content="Enable Expiro menu hotkey:" />
@@ -501,7 +501,7 @@
                                 Height="24"
                                 Padding="10,0">...</Button>
                     </StackPanel>
-                    <StackPanel Orientation="Horizontal" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
                         <CheckBox IsChecked="{Binding Source={x:Static Settings:Settings.Instance}, Path=EnableDesktopOverlayHotKey, UpdateSourceTrigger=PropertyChanged}"
                                   Name="chkEnableDesktopOverlayHotKey">
                             <Label Content="Enable dynamic desktop overlay hotkey:" />

@@ -523,11 +523,6 @@ namespace CairoDesktop
             Shell.StartProcess("control.exe");
         }
 
-        private void miOpenUWPSettings_Click(object sender, RoutedEventArgs e)
-        {
-            Shell.StartProcess("ms-settings://");
-        }
-
         private void OpenTaskManager(object sender, RoutedEventArgs e)
         {
             Shell.StartTaskManager();

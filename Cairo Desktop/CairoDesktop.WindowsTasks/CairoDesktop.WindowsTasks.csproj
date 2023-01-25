@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CairoDesktop.WindowsTasks</RootNamespace>
-    <AssemblyName>CairoDesktop.WindowsTasks</AssemblyName>
+    <AssemblyName>ExpiroDesktop.WindowsTasks</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

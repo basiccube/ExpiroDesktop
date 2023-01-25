@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CairoDesktop.Configuration</RootNamespace>
-    <AssemblyName>CairoDesktop.Configuration</AssemblyName>
+    <AssemblyName>ExpiroDesktop.Configuration</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
